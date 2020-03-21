@@ -18,3 +18,7 @@ jobs:
       run: |
         echo "Now we check the go version:"
         echo "go version:$(go version)"
+    - name: Build go by script
+      run: |
+        echo "Now build go:"
+        go build
